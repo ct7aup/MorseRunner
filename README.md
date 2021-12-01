@@ -1,4 +1,4 @@
-                              MORSE RUNNER  1.71
+                              MORSE RUNNER  1.71a
                               Contest Simulator
 
                                   freeware
@@ -115,9 +115,13 @@ CONFIGURATION
     transmitted by the computer when the corresponding key is pressed. This option
     has no effect in the WPX and HST competition modes.
 
+  Addicional simulator settings
 
-
-
+    CW Min Rx Speed - Set a speed below the CW Speed. If 0 it behaves like the original MorseRunner
+    CW Max Rx Speed - Set a speed above the CW Speed. If 0 it behaves like the original MorseRunner
+    NR Digits       - The number of digits of the DX Station NR
+    CWOps Number    - CWOps ID number used on the CWT Contest
+    
 STARTING A CONTEST
 
 The contest can be started in one of four modes.
@@ -134,6 +138,10 @@ The contest can be started in one of four modes.
 
  HST Competition mode: all settings conform to the IARU High Speed Telegraphy
    competition rules.
+   
+ CWT Competition mode: CW Ops CWT Contest Simulator. The identication of the user is 
+    made with the HST Operator and CWOps number.
+    
 
 
 
@@ -221,6 +229,14 @@ command.
 
 
 VERSION HISTORY
+  
+1.71a (CT7AUP)
+  - CW RX Min Speed.
+  - CW RX Max Speed.
+  - NR number of digits.
+  
+  
+  
 1.70 (BG4FQD)
   - Adjust UI, support windows scheme.
   - Support showing callsign infomation, You can modify it in the "ARRL.LIST"
